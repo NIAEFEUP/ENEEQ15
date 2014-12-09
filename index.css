@@ -1,5 +1,5 @@
 html,body{
-	font-family:verdana;
+	font-family:verdana,sans-serif;
 }
 
 #content,#header,#footer{
@@ -12,7 +12,7 @@ html,body{
 }
 
 #header img{
-	max-width:800px;
+	max-width:600px;
 }
 
 #content{
@@ -25,16 +25,14 @@ html,body{
 	background-color:#8c2d19 ;
 }
 
-p.left,p.right{1
+p.left,p.right{
 	display:inline-block;
 }
 
 .left{
-	float:left;
 	text-align:left;
 }
 
 .right{
-	float:right;
 	text-align:right;
 }
