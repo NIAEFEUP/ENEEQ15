@@ -18,3 +18,10 @@ body{
    font-size: 25px;
    color:#C5402B;
  }
+
+#navmenu.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}

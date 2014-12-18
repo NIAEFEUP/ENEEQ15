@@ -6,10 +6,10 @@ function $login_bar()
 
 $(document).ready(function(){
   $login_bar();
-});
 
-$('#navmenu').affix({
-  offset: {
-    top: $('header').height()
-  }
+  $('#navmenu').affix({
+    offset: {
+      top: $('header').height()
+    }
+  });
 });
