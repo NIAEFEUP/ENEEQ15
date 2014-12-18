@@ -12,4 +12,6 @@ $(document).ready(function(){
       top: $('header').height()
     }
   });
+
+  $('.link').css({marginBottom:$('#navmenu').height()});
 });

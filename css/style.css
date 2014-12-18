@@ -3,6 +3,14 @@ body{
     margin-right: 10%;
 }
 
+header{
+    text-align: center;
+}
+
+header img{
+    height:auto;
+}
+
  .navbar .navbar-nav {
    display: inline-block;
    float: none;
@@ -22,6 +30,7 @@ body{
 #navmenu.affix {
     position: fixed;
     top: 0;
-    width: 100%;
+    left:10%;
+    right:10%;
     z-index:10;
 }
