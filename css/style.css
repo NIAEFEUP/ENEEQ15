@@ -1,36 +1,52 @@
-body{
-  margin-left: 10%;
+#content{
+    margin-left: 10%;
     margin-right: 10%;
 }
 
 header{
     text-align: center;
+    width:100%;
 }
 
 header img{
     height:auto;
 }
 
- .navbar .navbar-nav {
+.navbar .navbar-nav {
    display: inline-block;
    float: none;
    vertical-align: top;
- }
+}
 
- .navbar .navbar-collapse {
+.navbar .navbar-collapse {
    text-align: center;
- }
+}
 
 
- .navbar-inverse .navbar-brand{
+.navbar-inverse .navbar-brand{
    font-size: 25px;
    color:#C5402B;
- }
+}
+
+#navmenu{
+    width:100%;
+}
+
+#navmenu nav{
+    border-radius:0;
+    border:0;
+}
 
 #navmenu.affix {
     position: fixed;
     top: 0;
-    left:10%;
-    right:10%;
     z-index:10;
+}
+
+#navspacer{
+    height:0;
+}
+
+.affix + #navspacer{
+    min-height: 50px;
 }
