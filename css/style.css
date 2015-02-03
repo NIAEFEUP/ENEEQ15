@@ -1,5 +1,5 @@
 body{
-    font-size:12 px;
+    font-size:10 px;
 }
 
 .light{
@@ -14,9 +14,18 @@ body{
   padding-right: 0px;
 }
 
-.cover{
-  max-width: 75%;
-  max-height: 80%;
+div.intro-body {
+  max-with:80%;
+  max-height: 75%;
+}
+
+.intro{
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
 }
 
 .content-section{
@@ -82,6 +91,20 @@ body{
 
 }
 
+#news{
+  background-image: url("../img/545.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  width:100%;
+  text-align:center;
+}
+
+
 article{
   font-color:#474143;
   padding: 10px;
@@ -107,9 +130,5 @@ article{
   background: -ms-radial-gradient(center, ellipse cover, rgba(99,85,51,0.82) 0%,rgba(99,85,51,0.82) 2%,rgba(153,125,73,0.81) 100%); /* IE10+ */
   background: radial-gradient(ellipse at center, rgba(99,85,51,0.82) 0%,rgba(99,85,51,0.82) 2%,rgba(153,125,73,0.81) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1635533', endColorstr='#cf997d49',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}
-
-.btn, .btn-circle{
 
 }

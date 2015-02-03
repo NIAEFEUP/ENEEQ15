@@ -10,10 +10,10 @@
   var readmore = 'readmore',
       defaults = {
         speed: 100,
-        maxHeight: 200,
+        maxHeight: 180,
         heightMargin: 16,
-        moreLink: '<a href="#" class="rmore">Read More</a>',
-        lessLink: '<a href="#city" class="rmore">Close</a>',
+        moreLink: '<a href="#city" class="rmore">Ler mais</a>',
+        lessLink: '<a href="#city" class="rmore">Fechar</a>',
         embedCSS: true,
         sectionCSS: 'display: block; width: 100%;',
         startOpen: false,
