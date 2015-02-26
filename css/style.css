@@ -132,3 +132,28 @@ article{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1635533', endColorstr='#cf997d49',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
+
+.orgcell, .orgcell > img,.orgcell > p {
+  width:200px;
+}
+
+.orgcell {
+  display: inline-block;
+  margin: 20px;
+}
+
+
+.orgcell > img {
+  border-radius: 0;
+  float: none;
+  margin: 0;
+}
+
+.orgcell > p{
+  margin-bottom: 0;
+}
+
+.orgcell > p:first-child{
+  font-weight: bold;
+}
+
