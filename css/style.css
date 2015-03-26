@@ -2,6 +2,13 @@ body{
     font-size:10 px;
 }
 
+#map-canvas{
+   height: 100%;
+        margin: 0px;
+        padding: 0px
+
+}
+
 .light{
   color:#993016;
 }
